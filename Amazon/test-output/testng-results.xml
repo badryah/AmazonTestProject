@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-22T22:04:21 GMT+03:00" name="Default suite" finished-at="2021-06-22T22:04:28 GMT+03:00" duration-ms="7188">
+    <groups>
+    </groups>
+    <test started-at="2021-06-22T22:04:21 GMT+03:00" name="Default test" finished-at="2021-06-22T22:04:28 GMT+03:00" duration-ms="7188">
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@1e04fa0a]" started-at="2021-06-22T22:04:21 GMT+03:00" name="setUp" finished-at="2021-06-22T22:04:25 GMT+03:00" duration-ms="3519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchforamazon()[pri:0, instance:tests.SearchTest@1e04fa0a]" started-at="2021-06-22T22:04:25 GMT+03:00" name="searchforamazon" finished-at="2021-06-22T22:04:28 GMT+03:00" duration-ms="3632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchforamazon -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.SearchTest@1e04fa0a]" started-at="2021-06-22T22:04:28 GMT+03:00" name="stopDriver" finished-at="2021-06-22T22:04:29 GMT+03:00" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
