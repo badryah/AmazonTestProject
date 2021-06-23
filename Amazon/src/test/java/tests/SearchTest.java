@@ -6,21 +6,16 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 
 public class SearchTest extends TestBase {
-	
+
 	HomePage homepage;
-	
+
 	@Test
-	public void searchforamazon() throws InterruptedException
-	
+	public void get_the_list_of_types_of_a_particular_product() throws InterruptedException 
+
 	{
 		homepage = new HomePage(driver); 
-		homepage.searchforamazonsite("Amazon" + "\n");
-		//Thread.sleep(3000);
-		//Assert.assertTrue(home.verifycontenth1.getText().contains("Practice"));
-		
-		Assert.assertEquals("Amazon.com. Spend less. Smile more.", driver.getTitle());
+		homepage.listproduct();
 
-		
 	}
 
 }

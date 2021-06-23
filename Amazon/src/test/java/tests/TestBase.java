@@ -14,17 +14,10 @@ public class TestBase {
 	{
 		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://google.com");
+		driver.get("https://www.amazon.com/");
 		//get("https://www.amazon.com/");
 	}
-	
-	private ChromeOptions getChromeOptions(){
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("disable-infobars");
-       options.setHeadless(true);// the page not open
-        return options;
-    }
-	
+
 	@AfterSuite
 	public void stopDriver() 
 	{
